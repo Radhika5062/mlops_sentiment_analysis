@@ -1,0 +1,18 @@
+[project]
+name = "src"
+version = "0.0.1"
+description = "An MLOPs project for productionizing models"
+authors = [{name = "Radhika Maheshwari", email = "radhikamaheshwari@gmail.com"}]
+dependencies = [
+    "ipykernel>=6.30.1",
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.3",
+    "pandas>=2.3.3",
+    "seaborn>=0.13.2",
+]
+
+[tools.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
