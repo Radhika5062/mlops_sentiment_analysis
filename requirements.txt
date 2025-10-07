@@ -4,3 +4,5 @@ matplotlib
 seaborn
 ipykernel
 nltk
+scikit-learn
+wordcloud
