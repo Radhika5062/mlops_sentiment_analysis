@@ -25,6 +25,6 @@ stages:
     outs:
     - path: artifact/
       hash: md5
-      md5: 94570a34c3cd923c5745acd039198e9e.dir
+      md5: 3534f4e0c3171c9a8e2a8abe0b8d2d15.dir
       size: 5134850
       nfiles: 2
