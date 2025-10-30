@@ -1,0 +1,9 @@
+columns:
+  - clean_comment: str
+  - category: int 
+
+numerical_columns:
+  - category
+
+column_names:
+  - clean_comment

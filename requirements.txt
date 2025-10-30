@@ -6,3 +6,13 @@ ipykernel
 nltk
 scikit-learn
 wordcloud
+mlflow
+boto3
+awscli
+imblearn
+xgboost
+lightgbm
+dvc
+from_root
+python-dateutil
+-e .

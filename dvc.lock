@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/components/data_ingestion.py
+    deps:
+    - path: notebooks\dataset.csv
+      hash: md5
+      md5: 29c670f2004e0ccf83f8a46f80d8197e
+      size: 5134826
+    - path: params.yaml
+      hash: md5
+      md5: 45701013af06592c63e712f242e01671
+      size: 34
+    - path: src/constant/training_pipeline/__init__.py
+      hash: md5
+      md5: 75588c2a91c791ebb82a8cea4751bfeb
+      size: 595
+    params:
+      params.yaml:
+        data_ingestion.test_size: 0.2
+    outs:
+    - path: artifact/
+      hash: md5
+      md5: 15259e458314a029153993225e2543da.dir
+      size: 5134850
+      nfiles: 2
